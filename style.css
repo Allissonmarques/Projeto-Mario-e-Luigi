@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -6,13 +6,81 @@
 }
 
 body{
-    background-color: black;
+    height: 100vh;
 }
 
-.icon-image-Mario{
-    width: 40px;
+header {
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    gap: 30px;
 }
 
-a{
+.icon-image-Mario {
+    width: 45px;
+}
+
+a {
     color: white;
+    font-size: 20px;
+    cursor: pointer;
 }
+
+a :hover{
+    color: #C51111;
+    font-size: 22px;
+    transition: 1s color ease-in-out;
+}
+
+main{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    height: 100vh;
+    padding: 100px;
+    justify-content: space-around;
+}
+
+.main-box{
+    display: flex;
+    flex-direction: column;
+}
+
+.logo-Mario-and-Luigi{
+    width: 300px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+p{
+    color: white;
+    width: 80%;
+    margin-bottom: 20px;
+}
+
+button{
+    background-color: #C51111;
+    border-radius: 4px;
+    width: 150px;
+    height: 40px;
+    border: none;
+    color: #FFF;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.Mário-and-Luigi-image{
+    width: 400px;
+}
+
+.video-box{
+    position: fixed;
+    z-index: -1;
+    top: 0;
+}
+
+video{
+    width: 100vw;
+}
+
