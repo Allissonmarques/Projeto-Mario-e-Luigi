@@ -68,6 +68,7 @@ button{
     color: #FFF;
     text-transform: uppercase;
     font-weight: bold;
+    cursor: pointer;
 }
 
 .Mário-and-Luigi-image{
@@ -112,6 +113,7 @@ video{
     border-radius: 4px;
     gap: 10px;
     z-index: 1;
+    transition: left 1s ease-in-out;
 }
 
 input{
@@ -121,6 +123,7 @@ input{
     border: 1px solid gray;
     padding-left: 10px;
     outline-color: #18D80F;
+    cursor: pointer;
 }
 
 textarea{
@@ -130,14 +133,18 @@ textarea{
     border: 1px solid gray;
     padding-left: 10px;
     outline-color: #18D80F;
+    cursor: pointer;
 }
 
 .mask-form{
+    visibility: hidden;
     width: 100vw;
     height: 100vh;
     position: fixed;
     top: 0;
     background: linear-gradient(109deg, rgba(10, 12, 16, 0.99) 15%, rgba(10, 12, 16, 0.7) 50%, rgba(10, 12, 16, 0.99) 85%);
+    transition: visibility 1s ease-in-out;
 }
+
 
 
