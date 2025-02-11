@@ -146,5 +146,44 @@ textarea{
     transition: visibility 1s ease-in-out;
 }
 
+@media(max-width:800px){
+    p{
+        display: none;
+    }
+
+    main{
+        flex-direction: column;
+        padding: 8px;
+    }
+
+    .main-box{
+        align-items: center;
+    }
+
+    .Mário-and-Luigi-image{
+        width: 300px;
+        height: auto;
+    }
+
+    .header{
+        margin: 8px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .header img{
+        display: none;
+    }
+
+    .header a{
+        font-size: 15px;
+    }
+
+    .header a:hover{
+        font-size: 17px;
+    }
+}
+
 
 

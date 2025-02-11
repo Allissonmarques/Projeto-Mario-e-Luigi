@@ -29,13 +29,14 @@
 
     <main>
         <div class="main-box">
-        <img src="./assets/logo.png" alt="logo Mario and Luigi" class="logo-Mario-and-Luigi">
-        <p>🔨 Encanadores Mário & Luigi - Resolvendo seus problemas hidráulicos! 🔧</p>
-        <p>🔧 Você já se encontrou em uma situação de emergência com encanamento? Vazamentos inesperados, canos
-            entupidos, ou torneiras que não param de pingar? Não se preocupe, porque estamos aqui para salvar seu dia!
-            Apresentamos a vocês os encanadores mais famosos do Reino dos Cogumelos - Mário & Luigi! 🔨</p>
-        <button onclick="buttonClicked()">ENTRE EM CONTATO</button>
-    </div>
+            <img src="./assets/logo.png" alt="logo Mario and Luigi" class="logo-Mario-and-Luigi">
+            <p>🔨 Encanadores Mário & Luigi - Resolvendo seus problemas hidráulicos! 🔧</p>
+            <p>🔧 Você já se encontrou em uma situação de emergência com encanamento? Vazamentos inesperados, canos
+                entupidos, ou torneiras que não param de pingar? Não se preocupe, porque estamos aqui para salvar seu
+                dia!
+                Apresentamos a vocês os encanadores mais famosos do Reino dos Cogumelos - Mário & Luigi! 🔨</p>
+            <button onclick="buttonClicked()">ENTRE EM CONTATO</button>
+        </div>
 
         <div>
             <img src="./assets/mario.png" alt="Mário and Luigi image" class="Mário-and-Luigi-image">
@@ -48,11 +49,16 @@
     </div>
 
     <form class="contact-us-form">
-        <input type="text" placeholder="Seu Nome">
-        <input type="text" placeholder="Seu Telefone">
-        <input type="text" placeholder="E-mail">
+        <input type="text" placeholder="Seu Nome" name="Name">
+        <input type="tel" placeholder="Seu Telefone" name="Telephone">
+        <input type="email" placeholder="E-mail" name="E-mail">
         <textarea>Digite sua dúvida aqui</textarea>
-        <button>Pedir Orçamento</button>
+        <button type="submit">Pedir Orçamento</button><!-- modify this form HTML as you wish and place wherever you want your form -->
+        <form
+          action="https://formcarry.com/s/Rx99hUAFJbk"
+          method="POST"
+          enctype="multipart/form-data"
+        >
     </form>
 
     <div class="mask-form" onclick="clickedMask()"></div>
